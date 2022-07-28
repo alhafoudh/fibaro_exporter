@@ -177,7 +177,7 @@ class FibaroMetrics
     hash
       .compact
       .map do |key, value|
-      "#{key}=#{value.inspect}"
+      "#{key}=#{value.to_s.inspect}"
     end.join(',')
   end
 end
