@@ -30,4 +30,4 @@ jobs:
       uses: docker/build-push-action@v3
       with:
         push: true
-        tags: alhafoudh/fibaro_exporter:${{ github.head_ref }}.${{ github.sha }}
+        tags: alhafoudh/fibaro_exporter:${{ github.sha }}
